@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TRAVEL ZONE</title>
+  <link rel="stylesheet" href="css/style.css">
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+ 
+  <div class="background"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar custom-navbar">
+    <div class="container-fluid px-5 d-flex justify-content-between align-items-center">
+      <span class="navbar-brand nav-left">Travel Zone</span>
+      <div class="nav-right d-flex">
+        <a class="nav-link" href="#"><i class="fas fa-home"></i> HOME</a>
+        <a class="nav-link" href="#group"><i class="fas fa-users"></i> GROUP TOURS</a>
+        <a class="nav-link" href="#packages-section"><i class="fas fa-box-open"></i> PACKAGES</a>
+        <a class="nav-link" href="#about"><i class="fas fa-info-circle"></i> ABOUT US</a>
+        <a class="nav-link" href="contact.html"><i class="fas fa-phone-alt"></i> CONTACT</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Image Carousel -->
+  <div class="carousel-container">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner rounded-pill">
+
+        <div class="carousel-item active">
+          <img src="images/caro.jpg" class="d-block w-100" alt="Slide 1">
+        </div>
+
+        <div class="carousel-item">
+          <div style="display: flex; justify-content: center; align-items: center; height: 500px;">
+            <h5 style="color:black; font-size: 60px; font-family: sans-serif, Segoe UI rgb(253, 253, 253); font-weight: bold; letter-spacing: 2px; text-shadow: 0 0 10px white, 0 0 20px; text-transform: uppercase; background-color: white; border-radius: 30px;">
+              WELCOME'S YOU ALL
+            </h5>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/caro2.jpeg" class="d-block w-100" alt="Slide 3">
+        </div>
+
+        <div class="carousel-item">
+          <div style="display: flex; justify-content: center; align-items: center; height: 500px;">
+            <h5 style="color:black; font-size: 60px; font-family: sans-serif; font-weight: bold; letter-spacing: 2px; text-shadow: 0 0 10px ; text-transform: uppercase; background-color: white; border-radius: 30px;">
+              TAMILNADU'S NO.1 TRAVEL AGENCY
+            </h5>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images/caro4.jpg" class="d-block w-100" alt="Slide 2">
+        </div>
+
+        <div class="carousel-item">
+          <div style="display: flex; justify-content: center; align-items: center; height: 500px;">
+            <h5 style="color:black; font-size: 60px; font-family: sans-serif, Segoe UI; font-weight: bold; letter-spacing: 2px; text-shadow: 0 0 10px; text-transform: uppercase; background-color: white; border-radius: 30px;">
+              LET'S EXPLORE THE WORLD
+            </h5>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Explore Button -->
+  <div class="explore">
+    <h5><a href="#packages-section">Explore</a></h5>
+  </div>
+
+  <!-- Packages Section -->
+  <div id="packages-section" class="packages">
+    <h2>Our Popular Packages</h2>
+
+    <div class="package-row">
+      <!-- Domestic Tour -->
+      <a href="#domesticplan" class="text-decoration-none text-dark">
+        <div class="package-card">
+          <h4>Domestic Tour</h4>
+          <img src="images/domestic.webp" alt="Domestic Tour">
+          <p>VIEW PLANS ➡️</p>
+        </div>
+      </a>
+
+      <!-- Honeymoon Tour -->
+      <a href="#honeymoonplans" class="text-decoration-none text-dark">
+        <div class="package-card">
+          <h4>Honeymoon Tour</h4>
+          <img src="images/honeymoon.jpg" alt="Honeymoon Tour">
+          <p>VIEW PLANS ➡️</p>
+        </div>
+      </a>
+
+      <!-- International Tour -->
+      <a href="#internationalplans" class="text-decoration-none text-dark">
+        <div class="package-card">
+          <h4>International Tour</h4>
+          <img src="images/international.avif" alt="International Tour">
+          <p>VIEW PLANS ➡️</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Group Tours Section -->
+   <div class="group-tours" id="group">
+    <img src="images/group images.jpeg" alt="">
+    <h5>GROUP TOURS PACKAGES</h5>
+    <div class="tour-destinations">
+
+      <a href="#internationalplans" class="destination text-decoration-none">
+        <h6>JAPAN</h6>
+        <img src="images/japan.webp" alt="">
+        <p>🕒 9 Nights 10 Days</p>
+      </a>
+
+      <a href="#internationalplans" class="destination text-decoration-none">
+        <h6>CHINA</h6>
+        <img src="images/china.jpg" alt="">
+        <p>🕒 9 Nights 10 Days</p>
+      </a>
+
+      <a href="#internationalplans" class="destination text-decoration-none">
+        <h6>THAILAND</h6>
+        <img src="images/thailand.jpg" alt="">
+        <p>🕒 9 Nights 10 Days</p>
+      </a>
+
+      <a href="#internationalplans" class="destination text-decoration-none">
+        <h6>GOA</h6>
+        <img src="images/goa.jpg" alt="">
+        <p>🕒 9 Nights 10 Days</p>
+      </a>
+
+      <a href="#internationalplans" class="destination text-decoration-none">
+        <h6>MALAYSIA</h6>
+        <img src="images/malaysia.jpeg" alt="">
+        <p>🕒 9 Nights 10 Days</p>
+      </a>
+
+      <a href="#internationalplans" class="destination text-decoration-none">
+        <h6>SINGAPORE</h6>
+        <img src="images/singapore.avif" alt="">
+        <p>🕒 9 Nights 10 Days</p>
+      </a>
+
+      <a href="#internationalplans" class="destination text-decoration-none">
+        <h6>BAALI</h6>
+        <img src="images/baali.jpg" alt="">
+        <p>🕒 9 Nights 10 Days</p>
+      </a>
+
+      <a href="#internationalplans" class="destination text-decoration-none">
+        <h6>SRI LANKA</h6>
+        <img src="images/srilanka.jpg" alt="">
+        <p>🕒 9 Nights 10 Days</p>
+      </a>
+
+    </div>
+  </div>
+
+ <!-- Domestic Tour  -->
+<div class="domestic-tour-banner" id="domesticplan">
+  <img src="images/domestic plan image.jpg" alt="Domestic Tours">
+  <div class="domestic-heading">Domestic Tour Plans</div>
+</div>
+<div class="domestic-places">
+  <!-- Delhi -->
+  <div class="domestic-card">
+    <h6>Delhi</h6>
+    <img src="images/delhi.jpg" alt="Delhi">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹18,500</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival & India Gate</li>
+      <li><strong>Day 2:</strong> Red Fort & Jama Masjid</li>
+      <li><strong>Day 3:</strong> Qutub Minar & Lotus Temple</li>
+      <li><strong>Day 4:</strong> Akshardham & Connaught Place</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Jaipur -->
+  <div class="domestic-card">
+    <h6>Jaipur</h6>
+    <img src="images/jaipur.jpg" alt="Jaipur">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹16,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival & City Palace</li>
+      <li><strong>Day 2:</strong> Amber Fort & Hawa Mahal</li>
+      <li><strong>Day 3:</strong> Jantar Mantar & Local Markets</li>
+      <li><strong>Day 4:</strong> Nahargarh Fort & Chokhi Dhani</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Kerala -->
+  <div class="domestic-card">
+    <h6>Kerala</h6>
+    <img src="images/kerala.jpeg" alt="Kerala">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹22,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival in Kochi</li>
+      <li><strong>Day 2:</strong> Munnar Tea Plantations</li>
+      <li><strong>Day 3:</strong> Alleppey Backwaters</li>
+      <li><strong>Day 4:</strong> Kovalam Beach</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Goa -->
+  <div class="domestic-card">
+    <h6>Goa</h6>
+    <img src="images/goa.jpg" alt="Goa">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹19,500</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival & Baga Beach</li>
+      <li><strong>Day 2:</strong> Fort Aguada & Calangute</li>
+      <li><strong>Day 3:</strong> Old Goa Churches</li>
+      <li><strong>Day 4:</strong> Cruise & Shopping</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Ooty -->
+  <div class="domestic-card">
+    <h6>Ooty</h6>
+    <img src="images/ooty.webp" alt="Ooty">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹15,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival & Rose Garden</li>
+      <li><strong>Day 2:</strong> Ooty Lake & Botanical Garden</li>
+      <li><strong>Day 3:</strong> Doddabetta Peak & Tea Factory</li>
+      <li><strong>Day 4:</strong> Local Sightseeing</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Mysore -->
+  <div class="domestic-card">
+    <h6>Mysore</h6>
+    <img src="images/mysore.jpg" alt="Mysore">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹14,800</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival & Brindavan Gardens</li>
+      <li><strong>Day 2:</strong> Mysore Palace & Zoo</li>
+      <li><strong>Day 3:</strong> Chamundi Hills & St. Philomena’s Church</li>
+      <li><strong>Day 4:</strong> Local Markets & Srirangapatna</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Kashmir -->
+  <div class="domestic-card">
+    <h6>Kashmir</h6>
+    <img src="images/kashmir.jpeg" alt="Kashmir">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹25,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival in Srinagar</li>
+      <li><strong>Day 2:</strong> Gulmarg Visit</li>
+      <li><strong>Day 3:</strong> Pahalgam Valley</li>
+      <li><strong>Day 4:</strong> Dal Lake & Shikara Ride</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Agra -->
+  <div class="domestic-card">
+    <h6>Agra</h6>
+    <img src="images/agra.jpeg" alt="Agra">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹13,500</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival & Agra Fort</li>
+      <li><strong>Day 2:</strong> Taj Mahal Visit</li>
+      <li><strong>Day 3:</strong> Fatehpur Sikri</li>
+      <li><strong>Day 4:</strong> Mehtab Bagh & Shopping</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+</div>
+
+
+ 
+ 
+
+  <!-- Honeymoon Plansr -->
+  <div class="domestic-tour-banner" id="honeymoonplans">
+    <img src="images/honeymoonheading.jpg" alt="Honeymoon">
+    <div class="domestic-heading">Honeymoon Tour Plans</div>
+  </div>
+  <div class="honeymoon-places">
+  <!-- Manali -->
+  <div class="honeymoon-card">
+    <h6>Manali</h6>
+    <img src="images/manali.jpg" alt="Manali">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹20,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival & Hadimba Temple</li>
+      <li><strong>Day 2:</strong> Solang Valley</li>
+      <li><strong>Day 3:</strong> Rohtang Pass</li>
+      <li><strong>Day 4:</strong> Mall Road Shopping</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Munnar -->
+  <div class="honeymoon-card">
+    <h6>Munnar</h6>
+    <img src="images/munnar.jpg" alt="Munnar">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹21,500</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival & Tea Gardens</li>
+      <li><strong>Day 2:</strong> Eravikulam National Park</li>
+      <li><strong>Day 3:</strong> Mattupetty Dam</li>
+      <li><strong>Day 4:</strong> Local sightseeing</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Udaipur -->
+  <div class="honeymoon-card">
+    <h6>Udaipur</h6>
+    <img src="images/udaipur.webp" alt="Udaipur">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹19,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival & Lake Pichola</li>
+      <li><strong>Day 2:</strong> City Palace & Jag Mandir</li>
+      <li><strong>Day 3:</strong> Sajjangarh Fort</li>
+      <li><strong>Day 4:</strong> Local Markets</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Shimla -->
+  <div class="honeymoon-card">
+    <h6>Shimla</h6>
+    <img src="images/shimla.jpg" alt="Shimla">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹18,500</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival & Ridge Walk</li>
+      <li><strong>Day 2:</strong> Kufri Excursion</li>
+      <li><strong>Day 3:</strong> Jakhoo Temple</li>
+      <li><strong>Day 4:</strong> Mall Road</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Coorg -->
+  <div class="honeymoon-card">
+    <h6>Coorg</h6>
+    <img src="images/coorg.webp" alt="Coorg">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹17,800</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival & Abbey Falls</li>
+      <li><strong>Day 2:</strong> Coffee Plantations</li>
+      <li><strong>Day 3:</strong> Dubare Elephant Camp</li>
+      <li><strong>Day 4:</strong> Raja’s Seat</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Alleppey -->
+  <div class="honeymoon-card">
+    <h6>Alleppey</h6>
+    <img src="images/alleppy.jpeg" alt="Alleppey">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹22,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival & Houseboat Stay</li>
+      <li><strong>Day 2:</strong> Backwater Cruise</li>
+      <li><strong>Day 3:</strong> Alappuzha Beach</li>
+      <li><strong>Day 4:</strong> Local Shopping</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+</div>
+
+
+  <!-- International Plans -->
+  <div class="domestic-tour-banner" id="internationalplans">
+    <img src="images/internationalheading.avif" alt="International">
+    <div class="domestic-heading">International Tour Plans</div>
+  </div>
+
+ 
+
+<div class="international-places">
+  <!-- Japan -->
+  <div class="international-card">
+    <h6>Japan</h6>
+    <img src="images/japan.webp" alt="Japan">
+    <p>🕒 5 Nights 6 Days</p>
+    <p class="price">₹85,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Tokyo City Tour</li>
+      <li><strong>Day 2:</strong> Mount Fuji</li>
+      <li><strong>Day 3:</strong> Kyoto Temple Visit</li>
+      <li><strong>Day 4:</strong> Osaka Castle</li>
+      <li><strong>Day 5:</strong> Nara Park</li>
+      <li><strong>Day 6:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Singapore -->
+  <div class="international-card">
+    <h6>Singapore</h6>
+    <img src="images/singapore.avif" alt="Singapore">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹65,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Marina Bay Sands</li>
+      <li><strong>Day 2:</strong> Universal Studios</li>
+      <li><strong>Day 3:</strong> Sentosa Island</li>
+      <li><strong>Day 4:</strong> Gardens by the Bay</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Dubai -->
+  <div class="international-card">
+    <h6>Dubai</h6>
+    <img src="images/dubai.jpg" alt="Dubai">
+    <p>🕒 5 Nights 6 Days</p>
+    <p class="price">₹70,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Burj Khalifa</li>
+      <li><strong>Day 2:</strong> Desert Safari</li>
+      <li><strong>Day 3:</strong> Dubai Mall</li>
+      <li><strong>Day 4:</strong> Miracle Garden</li>
+      <li><strong>Day 5:</strong> Marina Cruise</li>
+      <li><strong>Day 6:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Thailand -->
+  <div class="international-card">
+    <h6>Thailand</h6>
+    <img src="images/thailand.jpg" alt="Thailand">
+    <p>🕒 5 Nights 6 Days</p>
+    <p class="price">₹55,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Bangkok Tour</li>
+      <li><strong>Day 2:</strong> Safari World</li>
+      <li><strong>Day 3:</strong> Pattaya Beach</li>
+      <li><strong>Day 4:</strong> Coral Island</li>
+      <li><strong>Day 5:</strong> Floating Market</li>
+      <li><strong>Day 6:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Bali -->
+  <div class="international-card">
+    <h6>Bali</h6>
+    <img src="images/baali.jpg" alt="Bali">
+    <p>🕒 5 Nights 6 Days</p>
+    <p class="price">₹60,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Arrival & Kuta Beach</li>
+      <li><strong>Day 2:</strong> Tanah Lot Temple</li>
+      <li><strong>Day 3:</strong> Ubud Tour</li>
+      <li><strong>Day 4:</strong> Mount Batur</li>
+      <li><strong>Day 5:</strong> Water Sports</li>
+      <li><strong>Day 6:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Sri Lanka -->
+  <div class="international-card">
+    <h6>Sri Lanka</h6>
+    <img src="images/srilanka.jpg" alt="Sri Lanka">
+    <p>🕒 4 Nights 5 Days</p>
+    <p class="price">₹50,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Colombo City Tour</li>
+      <li><strong>Day 2:</strong> Kandy Temple</li>
+      <li><strong>Day 3:</strong> Nuwara Eliya</li>
+      <li><strong>Day 4:</strong> Galle Fort</li>
+      <li><strong>Day 5:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- Malaysia -->
+  <div class="international-card">
+    <h6>Malaysia</h6>
+    <img src="images/malaysia.jpeg" alt="Malaysia">
+    <p>🕒 5 Nights 6 Days</p>
+    <p class="price">₹58,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Kuala Lumpur City Tour</li>
+      <li><strong>Day 2:</strong> Genting Highlands</li>
+      <li><strong>Day 3:</strong> Batu Caves</li>
+      <li><strong>Day 4:</strong> Sunway Lagoon</li>
+      <li><strong>Day 5:</strong> Shopping</li>
+      <li><strong>Day 6:</strong> Departure</li>
+    </ul>
+  </div>
+
+  <!-- China -->
+  <div class="international-card">
+    <h6>China</h6>
+    <img src="images/china.jpg" alt="China">
+    <p>🕒 6 Nights 7 Days</p>
+    <p class="price">₹88,000</p>
+    <ul class="itinerary">
+      <li><strong>Day 1:</strong> Beijing Arrival</li>
+      <li><strong>Day 2:</strong> Great Wall Tour</li>
+      <li><strong>Day 3:</strong> Forbidden City</li>
+      <li><strong>Day 4:</strong> Shanghai City Tour</li>
+      <li><strong>Day 5:</strong> Suzhou Water Town</li>
+      <li><strong>Day 6:</strong> Free Day</li>
+      <li><strong>Day 7:</strong> Departure</li>
+    </ul>
+  </div>
+</div>
+
+<section id="about" class="about-us">
+  <div class="about-box">
+    <h2>About Travel Zone Agency</h2>
+    <h4>Tamil Nadu's No.1 Travel Agency</h4>
+    <p>
+      Travel Zone Agency is your trusted travel partner offering the best domestic and international tour packages. We make travel easy, affordable, and memorable for families, couples, and groups. Join us and explore the world with confidence.
+    </p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <h4>Travel Zone</h4>
+      <p>Saibaba Colony, Coimbatore</p>
+      <p>Tamil Nadu's No.1 Travel Agency</p>
+    </div>
+
+    <div class="footer-right">
+      <h4>Follow Us On</h4>
+      <div class="social-icons">
+        <a href="#" target="_blank" title="WhatsApp">
+          <img src="images/whatsapp.jpg" alt="WhatsApp">
+        </a>
+        <a href="#" target="_blank" title="Instagram">
+          <img src="images/instagram.avif" alt="Instagram">
+        </a>
+        <a href="#" target="_blank" title="Facebook">
+          <img src="images/facebook1.png" alt="Facebook">
+        </a>
+        <a href="#" target="_blank" title="YouTube">
+          <img src="images/youtube.png" alt="YouTube">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>
+
